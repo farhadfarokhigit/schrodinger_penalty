@@ -14,10 +14,7 @@ on the goal rectangle Omega = [-3.66, 3.66] x [0, 2.44] (metres), with
 Boundary conditions: u=0 (Dirichlet) at the posts and crossbar; a reflecting
 (Neumann) condition du/dz=0 at the ground.
 
-`a` is fixed at 3.31 (independently validated via drag correction and grid
-refinement -- an unconstrained joint fit of all five parameters is not
-identifiable, since `a` trades off against the height sector along a
-shallow ridge). The remaining four parameters (bx, bz, x0, z0) are fit
+`a` is fixed at 1.00. The remaining four parameters (bx, bz, x0, z0) are fit
 jointly by maximum likelihood.
 
 Requires: data_xz.npy, an (N,2) array of on-target penalty (x,z) locations
